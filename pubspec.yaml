@@ -35,12 +35,16 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
+  provider:                           # USED FOR STATE MANAGEMENT IN OUR APP
+  modal_progress_hud_nsn:             # USED FOR ASYNCHRONOUS PURPOSES
+  flutter_screenutil: 
+  get:
   firebase_core:
   firebase_auth:
   firebase_database:
   google_maps_flutter:
   flutter_polyline_points:
-  location:
+  location: ^6.0.2
   flutter_svg:
 
 
